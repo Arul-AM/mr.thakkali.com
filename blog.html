@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TEAMBUG</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo1_11_114823.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>>
+            </nav>
+           <h1>Our Official Information</h1>
+        </section>
+        <!--------------------------YT page--------------->
+        <section class="page">
+            <div class="row">
+                <div class="page-left">
+                    <img src="images">
+                    <h2>Official Information</h2>
+                    <p>official information means information, whether in a record or not, that comes to the knowledge of, 
+                        or into the possession of, a person because the person is a public servant or government contractor; Sample 1Sample 2Sample 3.</p>
+                <br>
+                <p>official information means information, whether in a record or not, that comes to the knowledge of, or into the possession of,
+                     a person because the person is a public servant or government contractor; Sample 1Sample 2Sample 3.</p>
+                     <br>
+                     <p>official information means information, whether in a record or not, that comes to the knowledge of, or
+                         into the possession of, a person because the person is a public servant or government contractor; Sample 1Sample 2Sample 3.</p>
+
+                        <div class="comment-box">
+                            <h3>Leave a comment</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="email" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="Yout comment"></textarea>
+                                <button type="Submit" class="hero-btns red btn">Post Comment</button>
+                            </form>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+            <div class="page-right">
+                <h3>UP-Coming</h3>
+                <div>
+                    <span>Games</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Games</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Games</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Games</span>
+                    <span>21</span>
+                </div>
+            </div>
+            </div>
+        </section>
+
+<!----------------------Footer---------------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>You might be thinking that there's no point in putting a lot of time and effort into the page footer because people don't pay attention to content below the fold.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p><i class="fa-regular fa-copyright"></i>2023 by <b>TEAMBUG</b>.All Rights Reserved.</p>
+</section>
+
+
+
+        <!---------------Javascript for Toogle Menu------------------------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            } 
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+   </body>
+</html>
